@@ -1,0 +1,26 @@
+h1{
+  color: white;
+  border: solid 6px;
+  background-color: black;
+  font-family: 'Kaushan Script', cursive;
+}
+img{
+  width:350px;
+  height: 350px;
+  object-fit: cover;
+
+
+}
+.group1{
+  border: solid 3px;
+  justify-content: space-between;
+}
+.group2{
+  border: solid 3px;
+  justify-content: space-between;
+}
+.group3{
+  border: solid 3px;
+  justify-content: space-between;
+}
+@media screen and (max-width: )
