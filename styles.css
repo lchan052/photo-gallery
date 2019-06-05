@@ -1,26 +1,51 @@
+* {
+  background-color: black;
+}
+
 h1{
   color: white;
-  border: solid 6px;
-  background-color: black;
+  border: solid 5px;
+  text-align: left;
   font-family: 'Kaushan Script', cursive;
 }
 img{
-  width:350px;
-  height: 350px;
+  width:345px;
+  height: 345px;
   object-fit: cover;
-
+  padding: 0px;
+  border: solid;
+  color: white;
 
 }
 .group1{
-  border: solid 3px;
+  border: solid 4px;
   justify-content: space-between;
+  justify-content: space-around;
+  justify-content: center;
 }
 .group2{
-  border: solid 3px;
+  border: solid 4px;
   justify-content: space-between;
+  justify-content: space-around;
+  justify-content: center;
 }
 .group3{
-  border: solid 3px;
+  border: solid 4px;
   justify-content: space-between;
+  justify-content: space-around;
+  justify-content: center;
 }
-@media screen and (max-width: )
+@media screen and (max-width: 800px){
+  img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 650px){
+  img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+}
